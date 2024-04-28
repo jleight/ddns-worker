@@ -1,0 +1,16 @@
+{
+  "name": "ddns-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240423.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "wrangler": "3.52.0"
+  }
+}
